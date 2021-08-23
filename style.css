@@ -3,7 +3,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+<<<<<<< HEAD
   list-style: none;
+=======
+>>>>>>> 44d69c1 (style header & form)
 }
 
 /* Déclarations de variables */
@@ -17,6 +20,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+<<<<<<< HEAD
 main,
 header {
   width: 93.2%;
@@ -31,6 +35,12 @@ h2 {
 h3 {
   font-size: 1rem;
   font-weight: 800;
+=======
+h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+>>>>>>> 44d69c1 (style header & form)
 }
 
 a,
@@ -44,19 +54,36 @@ button {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 44d69c1 (style header & form)
 input {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
+=======
+section {
+  margin: 0 2rem;
+}
+>>>>>>> 44d69c1 (style header & form)
 /*                                        header                                    */
 header {
   display: flex;
   align-items: center;
+<<<<<<< HEAD
   margin: 0 auto;
 }
 #logo {
   /* width: 100%; */
   margin-right: auto;
+=======
+  margin: 0 1.5rem 1rem 1.5rem;
+}
+#logo {
+  width: 100%;
+>>>>>>> 44d69c1 (style header & form)
   padding: 2rem 1rem;
 }
 
@@ -67,15 +94,22 @@ nav {
   display: flex;
   align-items: center;
   height: 7rem;
+<<<<<<< HEAD
   width: 20%;
   justify-content: space-around;
+=======
+>>>>>>> 44d69c1 (style header & form)
 }
 nav a {
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   /* padding: 0 2rem; */
+=======
+  padding: 0 2rem;
+>>>>>>> 44d69c1 (style header & form)
   font-weight: 500;
   transition: color 0.6s linear;
   position: relative;
@@ -116,6 +150,7 @@ nav a:hover {
   color: var(--bleu);
   font-weight: 600;
 }
+<<<<<<< HEAD
 /*                                    mise en page globale main                           */
 main {
   display: flex;
@@ -167,6 +202,12 @@ footer {
 .titre {
   margin-bottom: 1rem;
   line-height: 2rem;
+=======
+
+/* Recherche*/
+.titre {
+  margin-bottom: 1rem;
+>>>>>>> 44d69c1 (style header & form)
 }
 #recherche input[type="search"] {
   height: 3rem;
@@ -210,6 +251,7 @@ footer {
 #filtres {
   margin: 1rem;
   font-size: 1rem;
+<<<<<<< HEAD
   --hauteur: 2.5rem;
   font-weight: 800;
 }
@@ -218,6 +260,16 @@ footer {
   display: none;
 }
 #filtres span {
+=======
+  --hauteur:2.5rem;
+  font-weight: 800;
+}
+
+#filtres input[type="checkbox"] {
+  display: none;
+}
+#filtres span{
+>>>>>>> 44d69c1 (style header & form)
   margin-right: 1rem;
 }
 #filtres label {
@@ -230,6 +282,7 @@ footer {
   border-radius: 1.7rem;
   margin: 1rem;
   cursor: pointer;
+<<<<<<< HEAD
   transition: transform 400ms ease-in;
 }
 
@@ -238,12 +291,18 @@ footer {
 }
 
 #filtres label i {
+=======
+}
+
+#filtres label i{
+>>>>>>> 44d69c1 (style header & form)
   display: inline-block;
   background: var(--bleuClair);
   line-height: var(--hauteur);
   width: var(--hauteur);
   text-align: center;
   color: var(--bleu);
+<<<<<<< HEAD
   border-radius: 50%;
   margin: 0;
 }
@@ -253,6 +312,17 @@ footer {
 }
 
 #recherche p i {
+=======
+  border-radius:50%;
+  margin:0;
+}
+
+#filtres input:checked + label{
+  color: red;
+}
+
+#recherche p i{
+>>>>>>> 44d69c1 (style header & form)
   text-align: center;
   font-size: 0.6rem;
   line-height: 1.5rem;
@@ -262,6 +332,7 @@ footer {
   color: var(--bleu);
   border-radius: 50%;
 }
+<<<<<<< HEAD
 
 /*                                     HEBERGEMENTS                                    */
 #hebergements {
@@ -506,3 +577,5 @@ a#plus{
 #activites .cartes-container .description h3{
   line-height: 3.4rem;
 }
+=======
+>>>>>>> 44d69c1 (style header & form)
