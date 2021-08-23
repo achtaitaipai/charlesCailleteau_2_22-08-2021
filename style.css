@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-<<<<<<< HEAD
   list-style: none;
-=======
->>>>>>> 44d69c1 (style header & form)
 }
 
 /* Déclarations de variables */
@@ -20,10 +17,6 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 main,
 header {
   width: 93.2%;
@@ -37,17 +30,12 @@ h2 {
 
 h3 {
   font-size: 1rem;
-<<<<<<< HEAD
-  font-weight: 800;
-=======
+}
 h2 {
   font-size: 1.4rem;
   font-weight: 800;
   margin: 0.5rem 0;
->>>>>>> 44d69c1 (style header & form)
-=======
   font-weight: 600;
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
 
 a,
@@ -61,39 +49,19 @@ button {
   color: black;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> 44d69c1 (style header & form)
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 input {
   font-weight: 600;
 }
 
-<<<<<<< HEAD
-=======
-section {
-  margin: 0 2rem;
-}
->>>>>>> 44d69c1 (style header & form)
 /*                                        header                                    */
 header {
   display: flex;
   align-items: center;
-<<<<<<< HEAD
   margin: 0 auto;
 }
 #logo {
   /* width: 100%; */
   margin-right: auto;
-=======
-  margin: 0 1.5rem 1rem 1.5rem;
-}
-#logo {
-  width: 100%;
->>>>>>> 44d69c1 (style header & form)
   padding: 2rem 1rem;
 }
 
@@ -104,22 +72,13 @@ nav {
   display: flex;
   align-items: center;
   height: 7rem;
-<<<<<<< HEAD
-  width: 20%;
-  justify-content: space-around;
-=======
->>>>>>> 44d69c1 (style header & form)
 }
 nav a {
   display: flex;
   height: 100%;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
   /* padding: 0 2rem; */
-=======
-  padding: 0 2rem;
->>>>>>> 44d69c1 (style header & form)
   font-weight: 500;
   transition: color 0.6s linear;
   position: relative;
@@ -160,10 +119,6 @@ nav a:hover {
   color: var(--bleu);
   font-weight: 600;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 /*                                    mise en page globale main                           */
 main {
   display: flex;
@@ -176,12 +131,6 @@ main {
 section {
   margin: 1.5rem 0;
 }
-<<<<<<< HEAD
-=======
-section {
-  margin: 1.5rem 0;
-}
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 #recherche {
   width: 100%;
 }
@@ -209,17 +158,6 @@ footer {
   display: flex;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-=======
-
-.footer-container .info{
-  line-height: 1.7rem;
-}
-.footer-container .info h3{
-  line-height: 2.5rem;
-}
-/*                                                Recherche                       */
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 
 .footer-container .info{
   line-height: 1.7rem;
@@ -232,17 +170,13 @@ footer {
 .titre {
   margin-bottom: 1rem;
   line-height: 2rem;
-=======
-
+}
 /* Recherche*/
 .titre {
   margin-bottom: 1rem;
-<<<<<<< HEAD
->>>>>>> 44d69c1 (style header & form)
-=======
   line-height: 2rem;
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
+
 #recherche input[type="search"] {
   height: 3rem;
   margin: 0;
@@ -285,10 +219,6 @@ footer {
 #filtres {
   margin: 1rem;
   font-size: 1rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   --hauteur: 2.5rem;
   font-weight: 800;
 }
@@ -297,19 +227,6 @@ footer {
   display: none;
 }
 #filtres span {
-<<<<<<< HEAD
-=======
-  --hauteur:2.5rem;
-  font-weight: 800;
-}
-
-#filtres input[type="checkbox"] {
-  display: none;
-}
-#filtres span{
->>>>>>> 44d69c1 (style header & form)
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   margin-right: 1rem;
 }
 #filtres label {
@@ -322,34 +239,20 @@ footer {
   border-radius: 1.7rem;
   margin: 1rem;
   cursor: pointer;
-<<<<<<< HEAD
   transition: transform 400ms ease-in;
 }
 
 #filtres label:hover {
   transform: scale(1.1);
-<<<<<<< HEAD
 }
 
 #filtres label i {
-=======
-}
-
-#filtres label i{
->>>>>>> 44d69c1 (style header & form)
-=======
-}
-
-#filtres label i {
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   display: inline-block;
   background: var(--bleuClair);
   line-height: var(--hauteur);
   width: var(--hauteur);
   text-align: center;
   color: var(--bleu);
-<<<<<<< HEAD
-<<<<<<< HEAD
   border-radius: 50%;
   margin: 0;
 }
@@ -359,7 +262,6 @@ footer {
 }
 
 #recherche p i {
-=======
   border-radius:50%;
   margin:0;
 }
@@ -369,8 +271,6 @@ footer {
 }
 
 #recherche p i{
->>>>>>> 44d69c1 (style header & form)
-=======
   border-radius: 50%;
   margin: 0;
 }
@@ -380,7 +280,6 @@ footer {
 }
 
 #recherche p i {
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   text-align: center;
   font-size: 0.6rem;
   line-height: 1.5rem;
@@ -390,10 +289,6 @@ footer {
   color: var(--bleu);
   border-radius: 50%;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 
 /*                                     HEBERGEMENTS                                    */
 #hebergements {
@@ -406,10 +301,7 @@ footer {
 #hebergements h2{
   width: 91%;
   margin: 0 auto;
-<<<<<<< HEAD
   margin-bottom: 1.2rem;
-=======
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
 #hebergements .cartes-container .image {
   width: 100%;
@@ -425,11 +317,7 @@ footer {
 
 #hebergements .cartes-container {
   width: 91%;
-<<<<<<< HEAD
   margin: auto;
-=======
-  margin: 1.2rem auto;
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   display: flex;
   height: 27rem;
   justify-content: space-between;
@@ -518,10 +406,6 @@ a#plus{
   border-radius: 1.5rem;
   padding: 3rem 0;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 #populaires h2{
   width: 82%;
   margin: 0 auto;
@@ -576,7 +460,6 @@ a#plus{
 
 #populaires .cartes-container .description .note{
   margin-top: auto;
-<<<<<<< HEAD
 }
 
 .carte{
@@ -650,8 +533,3 @@ a#plus{
 #activites .cartes-container .description h3{
   line-height: 3.4rem;
 }
-=======
->>>>>>> 44d69c1 (style header & form)
-=======
-}
->>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
