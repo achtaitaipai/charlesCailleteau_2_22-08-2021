@@ -21,6 +21,9 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 main,
 header {
   width: 93.2%;
@@ -34,6 +37,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
+<<<<<<< HEAD
   font-weight: 800;
 =======
 h2 {
@@ -41,6 +45,9 @@ h2 {
   font-weight: 800;
   margin: 0.5rem 0;
 >>>>>>> 44d69c1 (style header & form)
+=======
+  font-weight: 600;
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
 
 a,
@@ -55,9 +62,12 @@ button {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> 44d69c1 (style header & form)
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 input {
   font-weight: 600;
 }
@@ -151,6 +161,9 @@ nav a:hover {
   font-weight: 600;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 /*                                    mise en page globale main                           */
 main {
   display: flex;
@@ -163,6 +176,12 @@ main {
 section {
   margin: 1.5rem 0;
 }
+<<<<<<< HEAD
+=======
+section {
+  margin: 1.5rem 0;
+}
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 #recherche {
   width: 100%;
 }
@@ -190,6 +209,17 @@ footer {
   display: flex;
   justify-content: space-between;
 }
+<<<<<<< HEAD
+=======
+
+.footer-container .info{
+  line-height: 1.7rem;
+}
+.footer-container .info h3{
+  line-height: 2.5rem;
+}
+/*                                                Recherche                       */
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 
 .footer-container .info{
   line-height: 1.7rem;
@@ -207,7 +237,11 @@ footer {
 /* Recherche*/
 .titre {
   margin-bottom: 1rem;
+<<<<<<< HEAD
 >>>>>>> 44d69c1 (style header & form)
+=======
+  line-height: 2rem;
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
 #recherche input[type="search"] {
   height: 3rem;
@@ -252,6 +286,9 @@ footer {
   margin: 1rem;
   font-size: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   --hauteur: 2.5rem;
   font-weight: 800;
 }
@@ -260,6 +297,7 @@ footer {
   display: none;
 }
 #filtres span {
+<<<<<<< HEAD
 =======
   --hauteur:2.5rem;
   font-weight: 800;
@@ -270,6 +308,8 @@ footer {
 }
 #filtres span{
 >>>>>>> 44d69c1 (style header & form)
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   margin-right: 1rem;
 }
 #filtres label {
@@ -288,6 +328,7 @@ footer {
 
 #filtres label:hover {
   transform: scale(1.1);
+<<<<<<< HEAD
 }
 
 #filtres label i {
@@ -296,12 +337,18 @@ footer {
 
 #filtres label i{
 >>>>>>> 44d69c1 (style header & form)
+=======
+}
+
+#filtres label i {
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   display: inline-block;
   background: var(--bleuClair);
   line-height: var(--hauteur);
   width: var(--hauteur);
   text-align: center;
   color: var(--bleu);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-radius: 50%;
   margin: 0;
@@ -323,6 +370,17 @@ footer {
 
 #recherche p i{
 >>>>>>> 44d69c1 (style header & form)
+=======
+  border-radius: 50%;
+  margin: 0;
+}
+
+#filtres input:checked + label {
+  color: rgb(102, 87, 87);
+}
+
+#recherche p i {
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   text-align: center;
   font-size: 0.6rem;
   line-height: 1.5rem;
@@ -333,6 +391,9 @@ footer {
   border-radius: 50%;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 
 /*                                     HEBERGEMENTS                                    */
 #hebergements {
@@ -345,7 +406,10 @@ footer {
 #hebergements h2{
   width: 91%;
   margin: 0 auto;
+<<<<<<< HEAD
   margin-bottom: 1.2rem;
+=======
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 }
 #hebergements .cartes-container .image {
   width: 100%;
@@ -361,7 +425,11 @@ footer {
 
 #hebergements .cartes-container {
   width: 91%;
+<<<<<<< HEAD
   margin: auto;
+=======
+  margin: 1.2rem auto;
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
   display: flex;
   height: 27rem;
   justify-content: space-between;
@@ -450,6 +518,10 @@ a#plus{
   border-radius: 1.5rem;
   padding: 3rem 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
 #populaires h2{
   width: 82%;
   margin: 0 auto;
@@ -504,6 +576,7 @@ a#plus{
 
 #populaires .cartes-container .description .note{
   margin-top: auto;
+<<<<<<< HEAD
 }
 
 .carte{
@@ -579,3 +652,6 @@ a#plus{
 }
 =======
 >>>>>>> 44d69c1 (style header & form)
+=======
+}
+>>>>>>> d18d081afa8e1c513d252c3ae76f47a52c0b8424
