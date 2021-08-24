@@ -39,7 +39,6 @@
 }
 a#plus {
   font-weight: 800;
-  display: block;
   width: 91%;
   margin: 0 auto;
   flex: 1;
@@ -52,8 +51,8 @@ a#plus {
   }
   #hebergements .cartes-container{
     flex-direction: column;
-    height: auto;
-    gap: 10px;
+    height: 89rem;
+    gap: 0.70rem;
     max-width: 82%;
     width: 82%;
   }
@@ -62,8 +61,14 @@ a#plus {
     flex: auto;
     width: 100%;
     max-width: 100%;
+    padding: 0;
   }
   #hebergements .cartes-container .carte .image{
     height: 7.25rem;
+  }
+
+  a#plus {
+    width: 81%;
+    margin: 2.25rem auto 0 auto;
   }
 }
