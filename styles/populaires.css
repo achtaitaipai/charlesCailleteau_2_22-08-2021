@@ -50,3 +50,8 @@
 #populaires .cartes-container .description .note {
   margin-top: auto;
 }
+@media (max-width: 1040px) {
+  #populaires{
+    border-radius: 0;
+  }
+}

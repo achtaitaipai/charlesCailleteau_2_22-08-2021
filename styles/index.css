@@ -80,7 +80,22 @@ section {
 #activites {
   width: 100%;
 }
-
+@media (max-width: 1040px) {
+  main{
+    width: 100%;
+  }
+  #populaires{
+    order: 1;
+    width: 100%;
+  }
+  #hebergements{
+    order: 2;
+    width: 100%;
+  }
+  #activites{
+    order: 3;
+  }
+}
 /*-------------------notes-------------------*/
 .note {
   font-size: 0.8rem;

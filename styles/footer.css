@@ -14,3 +14,11 @@ footer {
   .footer-container .info h3 {
     line-height: 2.5rem;
   }
+@media (max-width: 1040px) {
+  .footer-container{
+    flex-direction: column;
+  }
+.footer-container .info h3{
+  line-height: default;
+}
+}

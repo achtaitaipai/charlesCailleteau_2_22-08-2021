@@ -18,10 +18,15 @@
 }
 #activites .carte {
   width: 22%;
-  max-height: 45%;
+  max-height: 36%;
   background: white;
   border-radius: 1.5rem;
 }
+
+#activites .carte:nth-child(4n + 2){
+  max-height: 52%;
+}
+
 #activites .cartes-container .image {
   width: 100%;
   height: calc(100% - 3.4rem);
