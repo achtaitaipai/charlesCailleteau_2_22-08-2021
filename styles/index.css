@@ -5,29 +5,21 @@
   box-sizing: border-box;
   list-style: none;
 }
-
 /* Déclarations de variables */
 :root {
   --bleu: #0065fc;
   --bleuClair: #deebff;
   --gris: #f2f2f2;
 }
-
 body {
   font-family: "Raleway", sans-serif;
 }
-
 main,
 header {
   width: 93.2%;
   margin: 0 auto;
 }
-
-h2 {
-  font-size: 1.3125rem;
-  font-weight: 800;
-}
-
+/*                                           Typo                      */
 h3 {
   font-size: 1rem;
 }
@@ -35,32 +27,41 @@ h2 {
   font-size: 1.4rem;
   font-weight: 800;
   margin: 0.5rem 0;
-  font-weight: 600;
 }
-
-a,
-p,
-span,
-div,
-label,
-input,
-button {
+a {
   text-decoration: none;
   color: black;
 }
-
-input {
-  font-weight: 600;
+#hebergements h2,
+#populaires h2 {
+  width: 91%;
+  margin: 0 auto 1.5rem auto;
 }
-
- /*                                    mise en page globale main                           */
- main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* provisoire */
+#hebergements h3,
+#activites h3 {
+  font-weight: 800;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   overflow: hidden;
-  margin-bottom: 3.125rem;
+}
+#activites .description h3 {
+  padding-left: 0.5rem;
+}
+.carte{
+  font-size: 1rem;
+  background: white;
+  border-radius: 1.5rem;
+  box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 15%)
+}
+.carte p {
+  font-size: 0.8rem;
+}
+/*                                    mise en page globale                           */
+main {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-bottom: 3.125rem;
 }
 section {
   margin: 1.5rem 0;
@@ -72,7 +73,6 @@ section {
   width: 65%;
   background-color: var(--gris);
 }
-
 #populaires {
   width: 31%;
   background-color: var(--gris);
@@ -81,28 +81,35 @@ section {
   width: 100%;
 }
 
-footer {
-  width: 100%;
-  background: var(--gris);
-  padding: 3.125rem 3.4%;
+/*-------------------notes-------------------*/
+.note {
+  font-size: 0.8rem;
 }
-
-.footer-container{
-  width: 71%;
-  display: flex;
-  justify-content: space-between;
+.note .fas {
+  color: var(--bleu);
 }
-
-.footer-container .info{
-  line-height: 1.7rem;
+.note[data-note="4"] .fas:nth-child(5),
+.note[data-note="3"] .fas:nth-child(5),
+.note[data-note="2"] .fas:nth-child(5),
+.note[data-note="1"] .fas:nth-child(5),
+.note[data-note="0"] .fas:nth-child(5) {
+  color: #d9d9d9;
 }
-.footer-container .info h3{
-  line-height: 2.5rem;
+.note[data-note="3"] .fas:nth-child(4),
+.note[data-note="2"] .fas:nth-child(4),
+.note[data-note="1"] .fas:nth-child(4),
+.note[data-note="0"] .fas:nth-child(4) {
+  color: #d9d9d9;
 }
-/*                                                Recherche                       */
-
-.titre {
-  margin-bottom: 1rem;
-  line-height: 2rem;
+.note[data-note="2"] .fas:nth-child(3),
+.note[data-note="1"] .fas:nth-child(3),
+.note[data-note="0"] .fas:nth-child(3) {
+  color: #d9d9d9;
 }
-
+.note[data-note="1"] .fas:nth-child(2),
+.note[data-note="0"] .fas:nth-child(2) {
+  color: #d9d9d9;
+}
+.note[data-note="0"] .fas:nth-child(1) {
+  color: #d9d9d9;
+}

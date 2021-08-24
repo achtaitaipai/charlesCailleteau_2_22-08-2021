@@ -1,0 +1,16 @@
+footer {
+    width: 100%;
+    background: var(--gris);
+    padding: 3.125rem 3.4%;
+  }
+  .footer-container {
+    width: 71%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer-container .info {
+    line-height: 1.7rem;
+  }
+  .footer-container .info h3 {
+    line-height: 2.5rem;
+  }
