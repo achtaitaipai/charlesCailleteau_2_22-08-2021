@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Déclarations de variables */
+:root {
+  --bleu: #0065fc;
+  --bleuClair: #deebff;
+  --gris: #f2f2f2;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+main,
+header {
+  width: 93.2%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 1.3125rem;
+  font-weight: 800;
+}
+
+h3 {
+  font-size: 1rem;
+}
+h2 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+
+a,
+p,
+span,
+div,
+label,
+input,
+button {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  font-weight: 600;
+}
+
+ /*                                    mise en page globale main                           */
+ main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* provisoire */
+  overflow: hidden;
+  margin-bottom: 3.125rem;
+}
+section {
+  margin: 1.5rem 0;
+}
+#recherche {
+  width: 100%;
+}
+#hebergements {
+  width: 65%;
+  background-color: var(--gris);
+}
+
+#populaires {
+  width: 31%;
+  background-color: var(--gris);
+}
+#activites {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  background: var(--gris);
+  padding: 3.125rem 3.4%;
+}
+
+.footer-container{
+  width: 71%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-container .info{
+  line-height: 1.7rem;
+}
+.footer-container .info h3{
+  line-height: 2.5rem;
+}
+/*                                                Recherche                       */
+
+.titre {
+  margin-bottom: 1rem;
+  line-height: 2rem;
+}
+
