@@ -1,9 +1,6 @@
-[] Nettoyer et commenter style.css
-    []réorganiser le code par parties
-    []supprimer les doublons
-    []ajouter des variables
-
-
-[]espacement filtres
-[]choisir tailles des imgs
-[]transition sur tout ce qui se clique
+*ajouter des variables
+*nav width 100%
+*espacement filtres
+*choisir tailles des imgs
+*transition sur tout ce qui se clique
+*ecrans < 400 ??

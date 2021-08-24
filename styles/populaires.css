@@ -54,4 +54,7 @@
   #populaires{
     border-radius: 0;
   }
+  #populaires.carte{
+    height: 12.5rem;
+  }
 }

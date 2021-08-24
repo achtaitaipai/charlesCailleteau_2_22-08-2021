@@ -57,13 +57,13 @@ a#plus {
     width: 82%;
   }
   #hebergements .cartes-container .carte{
-    height: auto;
     flex: auto;
     width: 100%;
     max-width: 100%;
     padding: 0;
+    max-height: 12.5rem;
   }
-  #hebergements .cartes-container .carte .image{
+  #hebergements .cartes-container .carte .image img{
     height: 7.25rem;
   }
 
