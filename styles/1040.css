@@ -1,0 +1,81 @@
+@media (max-width: 1040px) {
+  main {
+    width: 100%;
+  }
+  #populaires {
+    order: 1;
+  }
+  #hebergements {
+    order: 2;
+    width: 100%;
+  }
+  a#plus {
+    margin: 3rem auto;
+  }
+  #hebergements h2{
+    text-align: center;
+  }
+  #activites {
+    order: 3;
+  }
+  #activites .cartes-container {
+    width: 91%;
+    margin:auto;
+  }
+
+  #activites h2{
+    text-align: center;
+    margin: 0 auto 1.5rem auto
+  }
+  #populaires {
+      width: 100%;
+    height: 20rem;
+    background: transparent;
+  }
+  #populaires h2 {
+    width: 91%;
+    text-align: center;
+  }
+  #populaires h2 i {
+    float: none;
+  }
+  #populaires .cartes-container {
+    width: 91%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+  }
+  #populaires .carte {
+    flex: 0 1 32%;
+    max-width: 32%;
+    padding: 5px;
+    height: 12.5rem;
+  }
+  #populaires .cartes-container .image {
+    width: 100%;
+    height: 7rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  #populaires .cartes-container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+  #populaires .carte .description {
+    line-height: 1.6rem;
+    padding: 0.5rem 0 0 0.5rem;
+    width: 100%;
+  }
+  .footer-container{
+      width: 100%;
+      justify-content: space-around;
+
+  }
+}
+
+
