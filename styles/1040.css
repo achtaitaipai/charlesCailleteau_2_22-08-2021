@@ -19,10 +19,27 @@
     order: 3;
   }
   #activites .cartes-container {
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    gap: 1.5rem;
     width: 91%;
-    margin:auto;
   }
-
+  #activites .cartes-container .carte {
+    width: 40%;
+    padding: 5px;
+    height: 12.5rem;
+  }
+  #activites .carte:nth-child(3n + 1) {
+    width: 100%;
+  }
+  #activites .carte:nth-child(4n + 2) {
+    width: 55%;
+  }
+  #activites .cartes-container .carte .image {
+    height: 8.43rem;
+  }
   #activites h2{
     text-align: center;
     margin: 0 auto 1.5rem auto
@@ -53,6 +70,8 @@
     max-width: 32%;
     padding: 5px;
     height: 12.5rem;
+    display: flex;
+    flex-direction: column;
   }
   #populaires .cartes-container .image {
     width: 100%;
@@ -71,10 +90,8 @@
     padding: 0.5rem 0 0 0.5rem;
     width: 100%;
   }
-  .footer-container{
-      width: 100%;
-      justify-content: space-around;
-
+  .footer-container {
+    width: 81%;
   }
 }
 

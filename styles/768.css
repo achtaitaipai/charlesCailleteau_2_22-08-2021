@@ -8,8 +8,8 @@
   }
   #hebergements .cartes-container {
     flex-direction: column;
-    height: 89rem;
-    gap: 0.7rem;
+    height: auto;
+    gap: 0.625rem;
     max-width: 82%;
     width: 82%;
   }
@@ -44,7 +44,7 @@
   #populaires .cartes-container {
     display: flex;
     flex-direction: column;
-    gap: 0.7rem;
+    gap: 0.625rem;
     max-width: 82%;
     width: 82%;
     height: auto;
@@ -55,6 +55,7 @@
     max-width: 100%;
     padding: 5px;
     max-height: 12.5rem;
+    flex-direction: row;
   }
   #populaires .cartes-container .carte .image {
     height: 100%;
@@ -74,7 +75,7 @@
     flex-direction: column;
     justify-content: center;
     height: auto;
-    gap: 1.5rem;
+    gap: 0.625rem;
     max-width: 82%;
     width: 82%;
   }
