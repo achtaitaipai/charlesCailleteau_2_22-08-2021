@@ -6,7 +6,7 @@
 [x]choisir tailles des imgs
 [x]vérifier tous les espacements
     [x]desktop
-    [ ]mobile
-[ ]breakpoint <1040
+    [x]mobile
+[x]breakpoint <1040
 [ ]transition sur tout ce qui se clique
 [ ]ajout favicon
