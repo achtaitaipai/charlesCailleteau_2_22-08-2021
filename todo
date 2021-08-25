@@ -1,6 +1,12 @@
-*ajouter des variables
-*nav width 100%
-*espacement filtres
-*choisir tailles des imgs
-*transition sur tout ce qui se clique
-*ecrans < 400 ??
+[x]corriger media queries >920 && <1040
+[x]reduire boite recherche avec taille écran
+[x]corriger activites h2 <920
+[x]nav width 100%
+[x]/-ecrans < 400 ??
+[x]choisir tailles des imgs
+[x]vérifier tous les espacements
+    [x]desktop
+    [ ]mobile
+[ ]breakpoint <1040
+[ ]transition sur tout ce qui se clique
+[ ]ajout favicon

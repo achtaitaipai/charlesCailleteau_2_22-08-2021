@@ -1,7 +1,5 @@
 /*                                        Activités                                   */
-#activites {
-  padding: 0 10px;
-}
+
 #activites h2 {
   margin-bottom: 1.5rem;
 }
@@ -23,7 +21,7 @@
   border-radius: 1.5rem;
 }
 
-#activites .carte:nth-child(4n + 2){
+#activites .carte:nth-child(4n + 2) {
   max-height: 52%;
 }
 
@@ -49,23 +47,4 @@
   line-height: 3.4rem;
 }
 
-@media (max-width: 1040px) {
-  #activites .cartes-container{
-    margin: auto;
-    flex-direction: column;
-    justify-content: center;
-    height: auto;
-    gap: 1.5rem;
-    max-width: 82%;
-    width: 82%;
-  }
-  #activites .cartes-container .carte{
-    height: 12rem;
-    flex: auto;
-    width: 100%;
-    max-width: 100%;
-  }
-  #activites .cartes-container .carte .image{
-    height: 8.43rem;
-  }
-}
+

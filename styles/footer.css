@@ -4,7 +4,7 @@ footer {
     padding: 3.125rem 3.4%;
   }
   .footer-container {
-    width: 71%;
+    width: 76%;
     display: flex;
     justify-content: space-between;
   }
@@ -13,12 +13,5 @@ footer {
   }
   .footer-container .info h3 {
     line-height: 2.5rem;
+    font-size: 1.1rem;
   }
-@media (max-width: 1040px) {
-  .footer-container{
-    flex-direction: column;
-  }
-.footer-container .info h3{
-  line-height: default;
-}
-}
