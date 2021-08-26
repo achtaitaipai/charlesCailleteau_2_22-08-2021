@@ -8,6 +8,7 @@
   #hebergements {
     order: 2;
     width: 100%;
+    border-radius: 0;
   }
   a#plus {
     margin: 3rem auto;
@@ -17,6 +18,47 @@
   }
   #activites {
     order: 3;
+  }
+  #recherche {
+    width: 91%;
+    margin: auto;
+  }
+  #recherche {
+    margin-top: 1.5rem;
+  }
+  .titre {
+    margin: auto;
+    line-height: 1.4rem;
+  }
+  #recherche p{
+    margin: 1.6rem 0;
+  }
+  #filtres {
+    margin-top: 1.625rem;
+    margin-left:0;
+  }
+  #filtres label{
+    margin: 0;
+    font-weight: 600;
+  }
+  #filtres span {
+    width: 100%;
+  }
+  #search-box {
+    display: flex;
+    justify-content: center;
+  }
+  #recherche button {
+    padding: 0;
+    width: 3rem;
+    border-radius: 25%;
+    transform: translateX(-25%);
+  }
+  #recherche button span {
+    display: none;
+  }
+  #recherche button i {
+    display: inline;
   }
   #activites .cartes-container {
     margin: auto;
