@@ -9,6 +9,9 @@
     [x]mobile
 [x]breakpoint <1040
 [x]espacement sections <768
-[ ] i de information
-[ ]transition sur tout ce qui se clique
-[ ]ajout favicon
+[x] i de information
+[x]ajout favicon
+[x]title pour les liens
+[x]transition sur tout ce qui se clique
+[x]readme
+[x]ranger css

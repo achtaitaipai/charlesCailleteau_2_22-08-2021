@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 550px) {
   #hebergements {
       padding-top: 1.1rem;
     background: transparent;
@@ -44,6 +44,9 @@
   }
   #populaires h2 i {
     float: right;
+  }
+  #populaires h3{
+      white-space: normal;
   }
   #populaires .cartes-container {
     display: flex;
@@ -93,13 +96,5 @@
   }
   #activites .cartes-container .carte .image {
     height: 8.43rem;
-  }
-  .footer-container {
-    flex-direction: column;
-    width: 91%;
-    margin: auto;
-  }
-  .footer-container .info h3 {
-    line-height: default;
   }
 }

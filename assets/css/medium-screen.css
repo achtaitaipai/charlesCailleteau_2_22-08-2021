@@ -5,6 +5,7 @@
   #populaires {
     order: 1;
   }
+  
   #hebergements {
     order: 2;
     width: 100%;
@@ -43,10 +44,6 @@
   }
   #filtres span {
     width: 100%;
-  }
-  #search-box {
-    display: flex;
-    justify-content: center;
   }
   #recherche button {
     padding: 0;
@@ -91,6 +88,11 @@
     height: 20rem;
     background: transparent;
   }
+  #populaires h3{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
   #populaires h2 {
     width: 91%;
     text-align: center;
@@ -133,7 +135,13 @@
     width: 100%;
   }
   .footer-container {
-    width: 81%;
+    flex-direction: column;
+    width: 91%;
+    margin: auto;
+    padding: 0 1rem;
+  }
+  .footer-container .info h3 {
+    line-height: default;
   }
 }
 
