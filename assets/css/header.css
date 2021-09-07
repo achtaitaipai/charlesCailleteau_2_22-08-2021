@@ -44,7 +44,7 @@ nav a::after {
 }
 
 nav a:hover::after {
-  transform: scalex(100%);
+  transform: scalex(1);
 }
 
 nav a:hover {

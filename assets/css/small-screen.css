@@ -33,7 +33,7 @@
   #populaires {
     border-radius: 0;
     height: auto;
-    width: 100;
+    width: 100%;
     background: var(--gris);
     padding: 2.3rem 0;
 
