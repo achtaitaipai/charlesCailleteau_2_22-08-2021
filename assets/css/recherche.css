@@ -77,7 +77,7 @@
   transition: transform 400ms ease-in;
 }
 #filtres label:hover {
-  transform: scale(1.1);
+  box-shadow: 1px 1px 5px 0 rgba(0,0,0, 0.29);
 }
 #filtres label i {
   display: inline-block;
